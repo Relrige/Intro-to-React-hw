@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.App-header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  width: 700px;
+  border-style: inset;
+  border-width: 1px;
+  overflow: hidden;
+}
+
+.Biography2 {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Galerry {
+  display: inline-block;
+  margin: 4px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 8px black;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.Galerry img{
+  height: 400px;
+}
+h3 {
+  text-align: center;
+}
